@@ -14,7 +14,7 @@ export const App = () => {
   const [isFinished, setIsFinished] = React.useState(false);
   const [isPlaying, setIsPlaying] = React.useState(false);
 
-  const initPos: [number, number] = [2, 5];
+  const initPos: [number, number] = [4, 8];
 
   const robotsState = {
     left: {

@@ -90,7 +90,7 @@ const Visualizer = ({ appState: { initPos, robotsState, setIsFinished, isPlaying
         const interval = setTimeout(() => {
           robotRoutine(lRobot);
           robotRoutine(rRobot);
-        }, 1000);
+        }, 500);
         return () => {
           clearTimeout(interval)
         }

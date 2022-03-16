@@ -46,11 +46,11 @@ export const App = () => {
       </Box>
 
       <Stack direction="row" spacing={1} >
-        <Box sx={{ flex: 1 }}>
+        <Box sx={{ flex: 1, backgroundColor:"#1078FF", color: "#fff" }}>
           <Typography variant="h6" align='center'>Left Robot</Typography>
           <CodeBlock highlightLineNo={lRobotState} />
         </Box>
-        <Box sx={{ flex: 1 }}>
+        <Box sx={{ flex: 1, backgroundColor:"#FF0500", color: "#fff" }}>
           <Typography variant="h6" align='center'>Right Robot</Typography>
           <CodeBlock highlightLineNo={rRobotState} />
         </Box>

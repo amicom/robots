@@ -23,7 +23,7 @@ const CodeBlock = ({ highlightLineNo }: CodeBlockProps) =>
   lineProps={(lineNumber: number): React.HTMLProps<HTMLElement> => {
     const style: React.CSSProperties = { display: "block", };
     if (highlightLineNo && highlightLineNo === lineNumber)
-      style.backgroundColor = "#181818";
+      style.backgroundColor = "#534d8a";
     return { style };
   }}>
   {codeSnippet}

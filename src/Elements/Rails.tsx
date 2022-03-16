@@ -1,7 +1,7 @@
 import { LineConfig } from "konva/lib/shapes/Line";
 import { times } from "lodash";
 import React from "react";
-import { Group, Line, Rect } from "react-konva"
+import { Group, Line } from "react-konva"
 import { useObjectSize } from "../hooks";
 import Base, { BaseProps } from "./Base";
 
